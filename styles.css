@@ -89,7 +89,7 @@ nav {
 .features-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .features h2 {
@@ -98,8 +98,6 @@ nav {
 
 .features ul {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .features li {
@@ -132,8 +130,21 @@ footer {
 
 .hero-image {
     img {
-        width: 35vw;
+        width: 100%;
     }
+}
+
+/* Features section enhancements */
+.feature-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px 45px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 35%;
+    height: 20rem;
+    margin: 0 1rem;
 }
 
 /* Responsive styles */
@@ -162,6 +173,12 @@ footer {
         img {
             width: 55vw;
         }
+    }
+
+    .feature-item {
+        margin: .25rem;
+        height: 24rem;
+        width: 100%;
     }
 }
 
@@ -193,29 +210,13 @@ footer {
             width: 65vw;
         }
     }
+
+    .feature-item {
+        padding: 15px;
+        height: 24rem;
+        width: 100%;
+    }
 }
-
-/* Features section enhancements */
-.feature-item {
-    background-color: #fff;
-    /* White background */
-    border: 1px solid #ddd;
-    /* Light grey border */
-    border-radius: 5px;
-    /* Rounded corners */
-    padding: 15px;
-    /* Padding inside the box */
-    margin-bottom: 20px;
-    /* Space between feature boxes */
-    text-align: left;
-    /* Align text to the left */
-    width: 45%;
-    height: 20rem;
-
-
-}
-
-.feature-item .feature-item-body {}
 
 .feature-item h3 {
     color: #333;
