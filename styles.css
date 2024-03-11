@@ -48,11 +48,11 @@ nav {
 
 .hero-content {
     max-width: 50%;
+    margin-right: 4rem;
 }
 
 .hero-content h1 {
     font-size: 36px;
-    margin: 20px;
 }
 
 .hero-content p {
@@ -163,6 +163,8 @@ footer {
     .hero-content {
         max-width: 100%;
         margin-bottom: 20px;
+        margin-right: 0;
+
     }
 
     .features ul {
@@ -215,6 +217,13 @@ footer {
         padding: 15px;
         height: 24rem;
         width: 100%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+
     }
 }
 
