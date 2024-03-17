@@ -125,6 +125,10 @@ div.testimonial {
     margin-bottom: 40px;
 }
 
+.testimonial section  {
+    margin-bottom: 1em;    
+}
+
 /* Footer styles */
 footer {
     background-color: #333;
