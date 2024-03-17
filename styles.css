@@ -8,6 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    font-size: 1.2em;
 }
 
 /* Header styles */
@@ -48,7 +49,7 @@ nav {
 
 .hero-content {
     max-width: 50%;
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 
 .hero-content h1 {
@@ -120,6 +121,10 @@ nav {
     font-weight: bold;
 }
 
+div.testimonial {
+    margin-bottom: 40px;
+}
+
 /* Footer styles */
 footer {
     background-color: #333;
@@ -130,7 +135,8 @@ footer {
 
 .hero-image {
     img {
-        width: 100%;
+        width: 70%;
+        max-width: 600px;
     }
 }
 
@@ -173,7 +179,7 @@ footer {
 
     .hero-image {
         img {
-            width: 55vw;
+            width: 60%;
         }
     }
 
@@ -195,7 +201,8 @@ footer {
     }
 
     .hero {
-        padding: 20px;
+        padding: 0px;
+        justify-content: flex-start;
     }
 
     .features,
@@ -209,7 +216,7 @@ footer {
 
     .hero-image {
         img {
-            width: 65vw;
+            width: 40%;
         }
     }
 
