@@ -102,7 +102,8 @@ nav {
 }
 
 .features li {
-    margin: 10px 0px;
+    margin: 10px 20px 0px 0px;
+    line-height: 1.4em;
 }
 
 /* Testimonials section styles */
@@ -161,6 +162,21 @@ footer {
 }
 
 /* Responsive styles */
+@media screen and (max-width: 1400px) {
+    .features-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-item {
+        margin: .25rem;
+        height: 14rem;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     /* Adjustments for tablets and small screens */
@@ -195,6 +211,13 @@ footer {
         height: 24rem;
         width: 100%;
     }
+
+    .features-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -218,7 +241,8 @@ footer {
     }
 
     .features li {
-        margin: 10px 0;
+        margin: 10px 20px 0px 0px;
+        line-height: 1.4em;
     }
 
     .hero-image {
@@ -238,6 +262,13 @@ footer {
         margin-bottom: 20px;
         margin-right: 0;
 
+    }
+
+    .features-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
