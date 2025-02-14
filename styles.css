@@ -82,12 +82,18 @@ nav {
 
 
 /* Features section styles */
-.features {
+.features, .feedback {
     padding: 50px;
     text-align: center;
 }
 
-.features-container {
+.feedback {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.features-container, #feedback {
     display: flex;
     align-items: center;
     justify-content: center;
