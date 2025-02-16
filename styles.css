@@ -22,10 +22,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
 .logo {
     font-weight: bold;
+    display: flex;
+    align-items: center;   
+}
+
+.company-logo {
+    width:40px;
+    height: auto;
 }
 
 .donate-btn {
@@ -319,5 +327,9 @@ footer {
 }
 
 a {
-    color: #5463f2;
+    color: #f6de56;
+   
+}
+a:hover { 
+    color: #dcbe11;
 }
